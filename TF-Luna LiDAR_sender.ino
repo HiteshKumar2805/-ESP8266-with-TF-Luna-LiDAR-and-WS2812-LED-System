@@ -5,7 +5,7 @@
 #include <TFLI2C.h>
 
 TFLI2C tfli2c;
-uint8_t broadcastAddress[] = { 0XEC, 0X64, 0XC9, 0XD3, 0X80, 0X0A }; 
+uint8_t broadcastAddress[] = { 0XEC, 0X64, 0XC9, 0XD3, 0X80, 0X0A }; // MAC Address of receiver ESP2866 
 int16_t distance = 0;
 uint8_t lidarAddress = 0x10;
 String json;
